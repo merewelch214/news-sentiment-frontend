@@ -1,8 +1,12 @@
 import React from 'react';
+import moment from 'moment';
 
 const Header = () => {
     return (
-        <div>This is where the header will go</div>
+        <div>
+            <h1>News Sentiment Analyzer</h1>
+            <h2>Today's date is {moment().format('MMMM Do YYYY')}</h2>
+        </div>
     )
 }
 
