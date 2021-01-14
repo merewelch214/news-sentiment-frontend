@@ -4,10 +4,10 @@ import NewsContainer from './NewsContainer';
 // TO DO: update once APIs have been researched
 let newsSources = ['NYT', 'WSJ', 'WaPo']
 
-const Body = () => {
+function Body() {
     return (
-        newsSources.map((newsSource) => {
-            return <NewsContainer title={newsSource} />
+        newsSources.map((newsSource, index) => {
+            return <NewsContainer key ={index} title={newsSource} />
         })
     )
 };
