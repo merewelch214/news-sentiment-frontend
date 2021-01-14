@@ -1,7 +1,7 @@
 import React from 'react';
 import moment from 'moment';
 
-const Header = () => {
+function Header() {
     return (
         <div>
             <h1>News Sentiment Analyzer</h1>
@@ -10,4 +10,4 @@ const Header = () => {
     )
 }
 
-export default Header;
+export default Header;  
