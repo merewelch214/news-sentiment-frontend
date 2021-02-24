@@ -3,7 +3,7 @@ import NewsContainer from './NewsContainer';
 import styled from 'styled-components';
 
 // TO DO: update once APIs have been researched
-const newsSources = ['NYT', 'WSJ', 'WaPo']
+const newsSources = ['New York Times', 'Wall Street Journal', 'Washington Post']
 
 const Container = styled.div`
     display: flex;

@@ -28,7 +28,8 @@ function Header() {
     return (
         <HeaderContainer>
             <Title>News Sentiment Analyzer</Title>
-            <Subtitle>Today's date is {moment().format('MMMM Do YYYY')}</Subtitle>
+            <Subtitle>Life is hard enough, don't let the news get you down</Subtitle>
+            <Subtitle>Today is {moment().format('MMMM Do YYYY')}</Subtitle>
         </HeaderContainer>
     )
 }

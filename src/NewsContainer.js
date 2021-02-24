@@ -12,7 +12,8 @@ const Card = styled.div`
 
 const NewsTitle = styled.h1`
     margin: 0;
-
+    font-family: Merriweather;
+    font-size: 1rem;
 `;
 
 function NewsContainer(props) {
